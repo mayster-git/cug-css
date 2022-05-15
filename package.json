@@ -1,0 +1,33 @@
+{
+  "name": "cug-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack --config webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayster-git/cug-css.git"
+  },
+  "author": "CuG",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mayster-git/cug-css/issues"
+  },
+  "homepage": "https://github.com/mayster-git/cug-css#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@wordpress/babel-preset-default": "^6.10.0",
+    "@wordpress/dependency-extraction-webpack-plugin": "^3.4.1",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^10.2.4",
+    "file-loader": "^6.2.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
